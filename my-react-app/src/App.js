@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const backgroundStyle = {
-    backgroundImage: "url('./pictures/background-forum.png')",
+    backgroundImage: "url('https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-boao-asia-forum-technology-earth-asia-city-silhouette-poster-image_210932.jpg')",
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -12,12 +12,15 @@ function App() {
   }; 
   return (
     <div className="container" style={backgroundStyle}>
-      <h1  style={{
+     
+        <table className="centered-table">
+          <tbody> <tr style={{
+            
+          }} ><h1  style={{
         margin:0,
         padding:0,
       }} >Forum</h1>
-        <table className="centered-table">
-          <tbody>
+            </tr>
             <tr>
               <td>Ime:</td>
               <td>
