@@ -1,15 +1,16 @@
-
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('./pictures/background-forum.png'); /* Promenite putanju do slike */
+  background-image: url("./pictures/background-forum.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+  
+ 
 
 
 
@@ -49,7 +50,7 @@ h1 {
   transition: all 0.3s ease; 
 }
 
-/
+
 button {
   background-color: #007bff;
   color: #fff;

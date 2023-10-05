@@ -4,16 +4,18 @@ import './App.css';
 
 function App() {
   const backgroundStyle = {
-    backgroundImage: `url(./pictures/background-forum.png )`,
+    backgroundImage: "url('./pictures/background-forum.png')",
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
 
-  };
+  }; 
   return (
-    <div>
-      <h1>Forum</h1>
-      <div className="container" style={backgroundStyle}>
+    <div className="container" style={backgroundStyle}>
+      <h1  style={{
+        margin:0,
+        padding:0,
+      }} >Forum</h1>
         <table className="centered-table">
           <tbody>
             <tr>
@@ -46,7 +48,6 @@ function App() {
             </tr>
           </tbody>
         </table>
-      </div>
     </div>
   );
 }
