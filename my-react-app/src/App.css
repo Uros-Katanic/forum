@@ -16,7 +16,6 @@ body{
 
   
 
- 
 .izmjena {
   left: 130;
 }
@@ -29,14 +28,22 @@ body{
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
+  
+}
+.centered-text{
+ display: block;
+ margin: 0;
+ padding: 0;
 }
 
 
 h1 {
-  text-align: center;
+  text-align: center; 
   font-size: 28px;
   color: #00b7ff81;
+  margin-top: 0; 
 }
+
 
 
 .centered-table td {

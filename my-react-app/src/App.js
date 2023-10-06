@@ -10,31 +10,49 @@ function App() {
     backgroundPosition: 'center',
 
   }; 
+
+  const h1Style = {
+    margin: 0,
+    padding: 20,
+    textAlign: 'center', 
+    color: 'cyan',
+  };
+
+  const centeredTrStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  };
+
   return (
     <div className="container" style={backgroundStyle}>
      
         <table className="centered-table">
-          <tbody> <tr style={{
+          <tbody>
+             <tr style={centeredTrStyle} >
             
-          }} ><h1  style={{
-        margin:0,
-        padding:0,
-      }} >Forum</h1>
+        <h1 style={h1Style} >Forum</h1>
             </tr>
             <tr>
-              <td>Ime:</td>
+              <td  style={{
+                color : 'cyan',
+              }}>Ime:</td>
               <td>
                 <input type="text" name="ime" />
               </td>
             </tr>
             <tr>
-              <td>Email:</td>
+              <td style={{
+                color : 'cyan',
+              }}>Email:</td>
               <td>
                 <input type="email" name="email" />
               </td>
             </tr>
             <tr>
-              <td>Odaberi:</td>
+              <td style={{
+                color : 'cyan',
+              }}>Odaberi:</td>
               <td>
                 <select>
                   <option value="prvi">Prvi</option>
